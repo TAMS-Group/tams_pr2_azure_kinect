@@ -3,6 +3,8 @@ Copyright (c) Microsoft Corporation. All rights reserved.
 Licensed under the MIT License.
 
 Based on driver.launch from Azure_Kinect_ROS_Driver fnh@20220704
+
+TODO(v4hn): driver and img_proc *can* be loaded into a nodelet_manager to avoid image serialization between the nodes
 -->
 
 <launch>
