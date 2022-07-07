@@ -45,6 +45,7 @@ TODO(v4hn): driver and img_proc *can* be loaded into a nodelet_manager to avoid 
     <param name="point_cloud_in_depth_frame"   type="bool"   value="$(arg point_cloud_in_depth_frame)" />
     <param name="sensor_sn"         type="string" value="$(arg sensor_sn)" />
     <param name="tf_prefix"         type="string" value="$(arg tf_prefix)" />
+    <param name="calibration_url"   type="string" value="package://tams_pr2_azure_kinect/config" />
     <param name="recording_file"          type="string" value="$(arg recording_file)" />
     <param name="recording_loop_enabled"  type="bool"   value="$(arg recording_loop_enabled)" />
     <param name="body_tracking_enabled"           type="bool"   value="$(arg body_tracking_enabled)" />
